@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+body {
+  background:#545454;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color:#fff;
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+
+.wrappper{
+  width:100%;
+  margin:0 auto;
+}
+
+
+canvas{
+  color:#fff;
+  border: #fff dashed 2px;
+  padding:15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+}
+
+#alphabet {
+  margin:15px auto;
+  padding:0;
+  max-width:900px;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+  background:#fff;
+  color:#545454;
+  cursor:pointer;
+  border: solid 1px #fff;    
+}
+#alphabet li:hover{
+    background:#545454;
+    border: solid 1px #fff;
+    color:#fff;
+  }
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+.active {
+  cursor:default;
+}
+
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+button{
+  background:#545454;
+  color:#fff;
+  border: solid 1px #fff;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
+button:hover{
+    background:#fff;
+    border: solid 1px #fff;
+    color:#545454;
+  }
+
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+  }
+
+  @media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+  }

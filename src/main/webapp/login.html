@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+   
+    <form action="login" method="post" style="margin-top:100px;">
+      <h1 style="color:#545454">Login Form</h1>
+      <div class="formcontainer"></div>
+      <hr/>
+      <div class="container">
+        <label for="uname" style="color:#545454"><strong>Username</strong></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="psw" style="color:#545454"><strong>Password</strong></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+      </div>
+      <div><button style="background-color:#545454">LOGIN</button></div>
+      
+      <div class="container" style="background-color: #eee">
+        <label style="padding-left: 15px">
+        <input type="checkbox"  checked="checked" name="remember"> Remember me
+        </label>
+        <span class="psw"><a href="#"> Forgot password?</a></span>
+      </div>
+      <div class="container" style="background-color: #eee">
+        <a href="game.jsp" style="color:#545454">Back to Game</a>
+      </div>
+       
+    </form>
+   
+  </body>
+</html>

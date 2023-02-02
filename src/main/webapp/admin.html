@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/admin.css">
+  </head>
+  <body>
+  <p>   </p>
+  <button style="margin-left:20px;margin-top:20px;"><a href="logout" style="color:white;">Logout</a></button>
+    <div class="testbox">
+      <form action="add" method="post">
+        <div class="banner">
+          <h1>Add New Word or <a style="color:white;" href="showData.jsp">Show Data</a></h1>
+        </div>
+        
+        <div class="item">
+        <p>Word</p>
+        <div class="city-item">
+            <input type="text" name="word" placeholder="enter word" />
+		 </div>
+          <p>Hint</p>
+          <input type="text" name="hint" placeholder="enter hint for word" />
+          
+        </div>
+        <div class="question">
+          <p>Category</p>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="Football Teams" id="radio_1" name="category" />
+              <label for="radio_1" class="radio"><span>Football Teams</span></label>
+            </div>
+            <div>
+              <input type="radio" value="Movies" id="radio_2" name="category" />
+              <label for="radio_2" class="radio"><span>Movies</span></label>
+            </div>
+            <div>
+              <input type="radio" value="Cities" id="radio_3" name="category" />
+              <label for="radio_3" class="radio"><span>Cities</span></label>
+            </div>
+            <div>
+              <input type="radio" value="Songs" id="radio_4" name="category" />
+              <label for="radio_4" class="radio"><span>Songs</span></label>
+            </div>
+            <div>
+              <input type="radio" value="Festivals" id="radio_5" name="category" />
+              <label for="radio_5" class="radio"><span>Festivals</span></label>
+            </div>
+            <div>
+              <input type="radio" value="Countries" id="radio_6" name="category" />
+              <label for="radio_6" class="radio"><span>Countries</span></label>
+            </div>
+            <div>
+              <input type="radio" value="Animal" id="radio_7" name="category" />
+              <label for="radio_7" class="radio"><span>Animal</span></label>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="btn-block">
+          <button type="submit">ADD</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
